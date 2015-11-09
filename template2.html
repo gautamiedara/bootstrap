@@ -6,6 +6,16 @@
 		body{
 			background-color: purple;
 		}
+		ul li.navlist{
+			background-color: lightgray;
+			display: inline;
+			line-height: 2em;
+    		padding: 0.5em 2em;
+			margin: 0px;
+			}
+		ul li.navlist:hover{
+			background-color: grey;
+		}	
 		div.mainContainer{
 			position: absolute;
 			left:50%;
@@ -18,7 +28,7 @@
 			overflow: scroll;
 			position: absolute;
 			border-top-style: ridge;
-			top:30%;
+			top:22%;
 			background-color: white;
 			width: 564px;
 			height: 300px;
@@ -38,7 +48,11 @@
 	</style>
 	<body>
 		<div class="mainContainer">
-			
+			<ul>
+			<li class="navlist"> </li>
+			<li class="navlist"> </li>
+			<li class="navlist"> </li>
+			</ul>
 			<div class="subContainer">
 			
 				<div class="childContainer">
@@ -51,6 +65,7 @@
 			
 				</div>
 			</div>
+			
 		</div>
 	</body>
 </html>
