@@ -7,14 +7,14 @@
 			background-color: purple;
 		}
 		ul li.navlist{
-			background-color: lightgray;
 			display: inline;
 			line-height: 2em;
     		padding: 0.5em 2em;
 			margin: 0px;
+			border-style: groove;
 			}
 		ul li.navlist:hover{
-			background-color: grey;
+			background-color: lightgrey;
 		}	
 		div.mainContainer{
 			position: absolute;
@@ -34,7 +34,12 @@
 			height: 300px;
 		
 		}
-	
+		img{
+		width: 26px;
+		height:26px;
+		float: left;
+		padding-right: 10px;
+		}
 		div.childContainer{
 			/*overflow: scroll;*/
 			position: absolute;
@@ -49,7 +54,7 @@
 	<body>
 		<div class="mainContainer">
 			<ul>
-			<li class="navlist"> </li>
+			<li class="navlist"><img src="nav-icon.png"</li>
 			<li class="navlist"> </li>
 			<li class="navlist"> </li>
 			</ul>

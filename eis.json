@@ -1,0 +1,28 @@
+{
+	"company":"TCS",
+	"categories": { "Application area" : { 
+						"pd":[{
+							"year":2011,
+							"expiry date":"20-11-2011",
+							"country":"India",
+							"name": "abcd",
+							"cpc" : "cpc1"
+						},
+						{
+							"year":2014,
+							"expiry date":"21-11-2011",
+							"country":"USA",
+							"name": "abcd",
+							"cpc" : "cpc5"
+						}],
+						
+						
+											},
+					"Input block" : {
+						
+					},
+					"Projector": {
+						
+					}	
+	}
+}
